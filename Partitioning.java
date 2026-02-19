@@ -26,8 +26,7 @@ public class Partitioning {
             
             for (int num : nums){
                 if (num > pivot){
-                    result[insertPosition] = num;
-                    insertPosition++;
+                    result[insertPosition++] = num;
                 }
 
             }
