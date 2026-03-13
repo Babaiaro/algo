@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Duplication {
     public int rmDuplicates(int[] nums, int k){
         int insertPosition = k;
+        int
 
         for ( int i = k; i < nums.length; i++){
             if(nums[i] != nums[insertPosition - k]){
