@@ -1,4 +1,4 @@
-package java_feb.algo1;
+package java_olds;
 
 public class Sudoku {
     // The 9x9 grid to store Sudoku values (1-9)

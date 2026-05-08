@@ -1,4 +1,4 @@
-    package java_feb;
+    package java_olds;
 
     public class gpsTracing {
         public int[] locateSnake( int n, int position){

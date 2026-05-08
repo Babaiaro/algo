@@ -1,4 +1,4 @@
-package java_feb.algo1;
+package java_olds;
 
 public class pr1 {
     public static void main(String args[]){

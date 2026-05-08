@@ -1,4 +1,4 @@
-package java_feb.algo1;
+package java_olds;
 
 public class Back_comp {
     public boolean backspaceCompare(String s, String t){

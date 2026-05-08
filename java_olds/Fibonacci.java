@@ -1,4 +1,4 @@
-package java_feb.algo1;
+package java_olds;
 
 public class Fibonacci {
     public static int fibonacci(int n){
