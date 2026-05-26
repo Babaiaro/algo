@@ -15,6 +15,7 @@ public class fromRoman {
             }
         }
         return total;
+        sout
     }
     
     private static int value(char c) {
@@ -38,5 +39,6 @@ public class fromRoman {
         
         int total = romanToInt(var);
         System.out.println(var + " = " + total);
+        System.out.println( );
     }
 }
