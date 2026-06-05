@@ -26,21 +26,25 @@ public class sortingArray {
             left++;
             right--;
         }
-
         return nums;
 
 
     }
-    public static void main(String[] args){
+   public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         sortingArray sa = new sortingArray();
 
-        System.out.println("Gime the list of the numbers to sort by odd: ");
+        System.out.println("Give the list of numbers to sort by parity: ");
         int size = scanner.nextInt();
         int[] nums = new int[size];
 
-        sa.sortArrayByParity(nums);
-        System.out.println(Arrays.toString(nums));
+        // ← ADD THIS: Read each number from user
+        System.out.println("Enter " + size + " numbers: ");
+        for (int i = 0; i < size; i++) {
+            nums[i] = scanner.nextInt();
+        }
 
+        sa.sortArrayByParity(nums);
+        System.out.println("Sorted: " + Arrays.toString(nums));
     }
 }
