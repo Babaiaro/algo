@@ -14,7 +14,7 @@ class Dog extends Aminal{
 
 class Cow extends Aminal{
     public void CowSound(){
-        System.out.println("MOO MOO");
+        System.out.println("MOO MOO MOO");
     }
 }
 
