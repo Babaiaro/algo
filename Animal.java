@@ -8,7 +8,7 @@ interface Animal {
 
 class Dog implements Animal{
     public void animalSound() {
-        System.out.println("gaf gaf");
+        System.out.println("gaf gaf gaf");
     }
     public void sleep() {
         System.out.println("ZZzzz");
