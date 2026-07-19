@@ -2,9 +2,9 @@ package oop;
 
 public class Enum_constructor {
     enum Level{
-        LOW("Low Level"), 
-        MEDIUM("Medium Level"),
-        HIGH("High Level");
+        LOW("LOW LEVEL"), 
+        MEDIUM("MEDIUM LEVEL"),
+        HIGH("HIGH LEVEL");
 
         private String description; 
 
