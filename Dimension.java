@@ -23,7 +23,7 @@ public class Dimension { // Standard Java naming: Classes start with Uppercase
     public static void main(String[] args) {
         Dimension solver = new Dimension();
         
-        int[] original = {1, 2, 3, 4, 5, 6,7,8};
+        int[] original = {1, 2, 3, 4, 5, 6,7,8,9};
         int m = 4; // rows
         int n = 2; // columns
 
