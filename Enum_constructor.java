@@ -4,7 +4,7 @@ public class Enum_constructor {
     enum Level{
         LOW("LOW LEVEL"), 
         MEDIUM("MEDIUM LEVEL"),
-        HIGH("HIGH LEVEL");
+        HIGH("HIGH LEVELl");
 
         private String description; 
 
